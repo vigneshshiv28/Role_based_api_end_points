@@ -1,9 +1,9 @@
 language: node_js
 node_js: 
-   - "12"
+  - "18"  
 script: 
-   - echo "Deploying!"
-   - echo "installing dependencies"
-   - npm install
-   - echo "running tests"
-   - npx jest
+  - echo "Deploying!"
+  - echo "Installing dependencies"
+  - npm install
+  - echo "Running tests"
+  - npx jest
