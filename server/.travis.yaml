@@ -1,0 +1,9 @@
+language: node_js
+node_js: 
+   - "12"
+script: 
+   - echo "Deploying!"
+   - echo "installing dependencies"
+   - npm install
+   - echo "running tests"
+   - npx jest
