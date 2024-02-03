@@ -18,5 +18,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "chai": "^5.0.3",
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.4"
+  }
 }
